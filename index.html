@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Piedra, Papel o Tijera</title>
-</head>
-<body>
-  <h1>¡Hola mundo!</h1>
-  <p>Esta es mi primera página en GitHub Pages.</p>
-</body>
-</html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Piedra papel o tijera ISMA</title>
+        <script>
+            //1 es piedra, 2 es papel, 3 es tijera
+            let jugador= 0
+            let pc = 2
+            jugador = prompt("elige: 1 para piedra, 2 es papel, 3 es tijera")
+           // alert("Elegiste" + jugador)
+           if(jugador == 1){
+            alert("Elegiste 🗿")
+        } else if(jugador == 2) {
+            alert("Elegiste 🧻")
+        } else if(jugador == 3) {
+            alert("Elegiste ✂️")
+        } else {
+            alert("Elegiste PERDER")
+        }
+        if(pc == 1){
+            alert("pc elige 🗿")
+        } else if(pc== 2) {
+            alert("pc elige 🧻")
+        } else if(pc == 3) {
+            alert("pc elige ✂️")
+        } else {
+            alert("pc elige")
+        }
+        // COMBATE
+        if(pc==jugador){
+            alert("EMPATE")
+        }
+        else if(jugador ==1 && pc == 3) {
+            alert("GANASTE CTM")
+        } else if(jugador == 2 && pc == 1){
+            alert("GANASTE CTM")
+        } else if(jugador == 3 && pc == 2){
+                alert("GANASTE CTM")
+        } else {
+            alert("PERDISTE vales vrg")
+        }
+        </script>
+    </head>
+    <body>
+<h1>Piedra papel o tijera ISMA</h1>
+    </body>
+</html>  
